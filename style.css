@@ -28,8 +28,8 @@ body{
 
 #links{
     margin: 30px 0;
-    padding: 30px 0 0 30px;
-    width: 318px;
+    padding: 30px 0 0 20px;
+    width: 328px;
     height: 318px;
     background-color: #302F3D;
     border-radius: 30px;
@@ -38,8 +38,8 @@ body{
 
 #technologies{
     margin: 30px 0;
-    padding: 10px 0 0 30px;
-    width: 318px;
+    padding: 10px 20px 0 20px;
+    width: 308px;
     height: 178px;
     background-color: #302F3D;
     border-radius: 30px;
@@ -47,32 +47,42 @@ body{
 }
 
     #t-title{
+        border: 1px solid red;
         font-size: 20px;
         display: block;
     }
-    
-    .technologies {
+    .technologies{
         font-weight: bold;
         color: #000000;
         text-align: center;
         width: 86px;
         height: 24px;
         font-size: 10px;
-        padding: 0 auto 0 auto;
         background-color: #CB92B1;
         border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #technologies-content {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        
+        
     }
 
 #experiences{
     margin: 30px 0;
-    padding: 10px 0 0 30px;
-    width: 318px;
-    height: 268px;
+    padding: 10px 20px 0 20px;
+    width: 308px;
+    height: 338px;
     background-color: #302F3D;
     border-radius: 30px;
 }
 
     #exp-title{
+        border: 1px solid red;
         font-size: 20px;
         display: block;
     }
@@ -87,14 +97,15 @@ body{
 
 #education{
     margin: 30px 0;
-    padding: 10px 0 0 30px;
-    width: 318px;
-    height: 268px;
+    padding: 10px 20px 0 20px;
+    width: 308px;
+    height: 342px;
     background-color: #302F3D;
     border-radius: 30px;
 }
 
     #edu-title{
+        border: 1px solid red;
         font-size: 20px;
         display: block;
     }
@@ -108,20 +119,22 @@ body{
     }
 #my-projects{
     margin: 30px 0;
-    padding: 10px 0 0 30px;
-    width: 922px;
-    height: 76px;
+    padding: 0 0 0 20px;
+    width: 932px;
+    height: 86px;
     background-color: #302F3D;
     border-radius: 30px;
-}
+    }
 
     #mp-title{
+        border: 1px solid red;
         font-size: 20px;
-        display: block;
     }
 
     .my-project{
         font-size: 14px;
+        display:flex;
+        justify-content: right;    
     }
 
 #project1{
@@ -144,22 +157,26 @@ body{
 
 #recent-posts{
         margin: 30px 0;
-        padding: 10px 0 0 30px;
-        width: 922px;
-        height: 76px;
+        padding: 0 0 0 20px;
+        width: 932px;
+        height: 86px;
         background-color: #302F3D;
         border-radius: 30px;
-}
+        display: flex;
+        justify-content: left;
+        align-items: center;
+    }
 
     #rp-title{
+        border: 1px solid red;
         font-size: 20px;
         display: block;
     }
 
 #post{
     margin: 30px 0;
-    padding: 10px 0 0 30px;
-    width: 922px;
+    padding: 10px 20px 0 20px;
+    width: 912px;
     height: 191px;
     background-color: #302F3D;
     border-radius: 30px;
