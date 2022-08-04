@@ -1,0 +1,170 @@
+* {
+    font-family: 'Merriweather', sans-serif;
+    font-size: 13px;
+    color: #837E9F;
+}
+
+body{
+    background: #22212C;
+}
+
+#profile{
+    padding: 30px 0 0 0;
+    text-align: center;
+    width: 348px;
+    height: 262px;
+    background-color: #302F3D;
+    border-radius: 30px;
+}
+
+#p-img{
+    border-radius: 50%;
+    border: 2px solid #00FF00;
+}
+
+#p-name{
+    font-size: 23px;
+}
+
+#links{
+    margin: 30px 0;
+    padding: 30px 0 0 30px;
+    width: 318px;
+    height: 318px;
+    background-color: #302F3D;
+    border-radius: 30px;
+    line-height: 50px;
+}
+
+#technologies{
+    margin: 30px 0;
+    padding: 10px 0 0 30px;
+    width: 318px;
+    height: 178px;
+    background-color: #302F3D;
+    border-radius: 30px;
+    font-size: 10px;
+}
+
+    #t-title{
+        font-size: 20px;
+        display: block;
+    }
+    
+    .technologies {
+        font-weight: bold;
+        color: #000000;
+        text-align: center;
+        width: 86px;
+        height: 24px;
+        font-size: 10px;
+        padding: 0 auto 0 auto;
+        background-color: #CB92B1;
+        border-radius: 10px;
+    }
+
+#experiences{
+    margin: 30px 0;
+    padding: 10px 0 0 30px;
+    width: 318px;
+    height: 268px;
+    background-color: #302F3D;
+    border-radius: 30px;
+}
+
+    #exp-title{
+        font-size: 20px;
+        display: block;
+    }
+
+    .experiences{
+        font-size: 14px;
+    }
+
+    .exp-description{
+        font-size: 12px;
+    }
+
+#education{
+    margin: 30px 0;
+    padding: 10px 0 0 30px;
+    width: 318px;
+    height: 268px;
+    background-color: #302F3D;
+    border-radius: 30px;
+}
+
+    #edu-title{
+        font-size: 20px;
+        display: block;
+    }
+
+    .education{
+        font-size: 14px;
+    }
+
+    .edu-description{
+        font-size: 12px;
+    }
+#my-projects{
+    margin: 30px 0;
+    padding: 10px 0 0 30px;
+    width: 922px;
+    height: 76px;
+    background-color: #302F3D;
+    border-radius: 30px;
+}
+
+    #mp-title{
+        font-size: 20px;
+        display: block;
+    }
+
+    .my-project{
+        font-size: 14px;
+    }
+
+#project1{
+    margin: 30px 0;
+    padding: 10px 0 0 30px;
+    width: 431px;
+    height: 176px;
+    background-color: #302F3D;
+    border-radius: 30px;
+}
+
+#project2{
+    margin: 30px 0;
+    padding: 10px 0 0 30px;
+    width: 431px;
+    height: 176px;
+    background-color: #302F3D;
+    border-radius: 30px;
+}
+
+#recent-posts{
+        margin: 30px 0;
+        padding: 10px 0 0 30px;
+        width: 922px;
+        height: 76px;
+        background-color: #302F3D;
+        border-radius: 30px;
+}
+
+    #rp-title{
+        font-size: 20px;
+        display: block;
+    }
+
+#post{
+    margin: 30px 0;
+    padding: 10px 0 0 30px;
+    width: 922px;
+    height: 191px;
+    background-color: #302F3D;
+    border-radius: 30px;
+}
+
+    #post-img{
+        border-radius: 50%;
+    }
