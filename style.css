@@ -28,13 +28,23 @@ body{
 
 #links{
     margin: 30px 0;
-    padding: 30px 0 0 20px;
+    padding: 0 0 0 20px;
     width: 328px;
-    height: 318px;
+    height: 348px;
     background-color: #302F3D;
     border-radius: 30px;
     line-height: 50px;
 }
+
+    .links{
+        display:inline-flex;
+        align-items: center;
+    }
+
+    .img-links{
+        padding: 0 10px 0 0;
+    }
+
 
 #technologies{
     margin: 30px 0;
@@ -64,12 +74,11 @@ body{
         justify-content: center;
         align-items: center;
     }
+
     #technologies-content {
         display: flex;
         justify-content: space-around;
-        flex-wrap: wrap;
-        
-        
+        flex-wrap: wrap;    
     }
 
 #experiences{
@@ -119,22 +128,26 @@ body{
     }
 #my-projects{
     margin: 30px 0;
-    padding: 0 0 0 20px;
-    width: 932px;
+    padding: 0 20px 0 20px;
+    width: 912px;
     height: 86px;
     background-color: #302F3D;
     border-radius: 30px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
     }
 
     #mp-title{
+        width:fit-content;
         border: 1px solid red;
         font-size: 20px;
     }
 
-    .my-project{
-        font-size: 14px;
-        display:flex;
-        justify-content: right;    
+    .mp-description{
+        border: 1px solid red;
+        width:fit-content;
+        font-size: 14px;  
     }
 
 #project1{
@@ -145,6 +158,24 @@ body{
     background-color: #302F3D;
     border-radius: 30px;
 }
+
+    .title-project{
+        display:inline-flex;
+        align-items: center;
+    }
+
+    .rodape-project{
+        display:flex;
+        align-items: center;
+    }
+
+    .img-project{
+        margin-right: 5px;
+    }
+
+    .text-language-project{
+        margin: 0 30px 0 auto;
+    }
 
 #project2{
     margin: 30px 0;
