@@ -57,7 +57,6 @@ body{
 }
 
     #t-title{
-        border: 1px solid red;
         font-size: 20px;
         display: block;
     }
@@ -91,7 +90,6 @@ body{
 }
 
     #exp-title{
-        border: 1px solid red;
         font-size: 20px;
         display: block;
     }
@@ -114,7 +112,6 @@ body{
 }
 
     #edu-title{
-        border: 1px solid red;
         font-size: 20px;
         display: block;
     }
@@ -140,12 +137,10 @@ body{
 
     #mp-title{
         width:fit-content;
-        border: 1px solid red;
         font-size: 20px;
     }
 
     .mp-description{
-        border: 1px solid red;
         width:fit-content;
         font-size: 14px;  
     }
@@ -194,25 +189,30 @@ body{
         background-color: #302F3D;
         border-radius: 30px;
         display: flex;
-        justify-content: left;
         align-items: center;
     }
 
     #rp-title{
-        border: 1px solid red;
         font-size: 20px;
         display: block;
     }
 
 #post{
     margin: 30px 0;
-    padding: 10px 20px 0 20px;
-    width: 912px;
+    padding: 10px 20px 0 30px;
+    width: 902px;
     height: 191px;
     background-color: #302F3D;
     border-radius: 30px;
+    display: flex;
+    align-items: center;
 }
 
+    .post-text{
+        margin: 10px 20px 0 20px;
+        width: 750px;
+    }
     #post-img{
         border-radius: 50%;
+
     }
