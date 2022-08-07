@@ -6,20 +6,22 @@
 
 body{
     background: #22212C;
+    margin: 2rem 2rem;
+    align-items: center;
 }
 
 #profile{
-    padding: 30px 0 0 0;
+    padding: 3rem 0 0 0;
     text-align: center;
-    width: 348px;
-    height: 262px;
+    width: 27rem;
+    height: 20rem;
     background-color: #302F3D;
-    border-radius: 30px;
+    border-radius: 1rem;
 }
 
 #p-img{
     border-radius: 50%;
-    border: 2px solid #00FF00;
+    border: 0.2rem solid #00FF00;
 }
 
 #p-name{
@@ -27,48 +29,49 @@ body{
 }
 
 #links{
-    margin: 30px 0;
-    padding: 0 0 0 20px;
-    width: 328px;
-    height: 348px;
+    margin: 2rem 0;
+    padding: 1rem 0;
+    width: 27rem;
+    height: 21rem;
     background-color: #302F3D;
-    border-radius: 30px;
-    line-height: 50px;
+    border-radius: 1.5rem;
+    line-height: 3rem;
 }
 
     .links{
+        margin: 0 0 0 2rem;
         display:inline-flex;
         align-items: center;
     }
 
     .img-links{
-        padding: 0 10px 0 0;
+        padding: 0 1rem 0 0;
     }
 
 
 #technologies{
-    margin: 30px 0;
-    padding: 10px 20px 0 20px;
-    width: 308px;
-    height: 178px;
+    margin: 2rem 0;
+    width: 27rem;
+    height: 11rem;
     background-color: #302F3D;
-    border-radius: 30px;
+    border-radius: 1.5rem;
     font-size: 10px;
 }
 
     #t-title{
+        padding: 1rem 0 0 0;
+        margin: 0 0 0 2rem;
         font-size: 20px;
-        display: block;
     }
     .technologies{
         font-weight: bold;
         color: #000000;
         text-align: center;
-        width: 86px;
-        height: 24px;
+        width: 7rem;
+        height: 2rem;
         font-size: 10px;
         background-color: #CB92B1;
-        border-radius: 10px;
+        border-radius: 1rem;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -77,24 +80,25 @@ body{
     #technologies-content {
         display: flex;
         justify-content: space-around;
-        flex-wrap: wrap;    
+        flex-wrap: wrap;  
     }
 
 #experiences{
-    margin: 30px 0;
-    padding: 10px 20px 0 20px;
-    width: 308px;
-    height: 338px;
+    margin: 2rem 0;
+    width: 27rem;
+    height: 22rem;
     background-color: #302F3D;
-    border-radius: 30px;
+    border-radius: 1.5rem;
 }
 
     #exp-title{
+        padding: 1rem 0 0 0;
+        margin: 0 0 0 2rem;
         font-size: 20px;
-        display: block;
     }
 
     .experiences{
+        margin: 0 2rem 0 2rem;
         font-size: 14px;
     }
 
@@ -103,20 +107,21 @@ body{
     }
 
 #education{
-    margin: 30px 0;
-    padding: 10px 20px 0 20px;
-    width: 308px;
-    height: 342px;
+    margin: 2rem 0;
+    width: 27rem;
+    height: 25rem;
     background-color: #302F3D;
-    border-radius: 30px;
+    border-radius: 1.5rem;
 }
 
     #edu-title{
+        padding: 1rem 0 0 0;
+        margin: 0 0 0 2rem;
         font-size: 20px;
-        display: block;
     }
 
     .education{
+        margin: 0 2rem 0 2rem;
         font-size: 14px;
     }
 
@@ -124,42 +129,55 @@ body{
         font-size: 12px;
     }
 #my-projects{
-    margin: 30px 0;
-    padding: 0 20px 0 20px;
-    width: 912px;
-    height: 86px;
+    margin: 2rem 0;
+    width: 71rem;
+    height: 7rem;
     background-color: #302F3D;
-    border-radius: 30px;
+    border-radius: 1.5rem;
     display:flex;
     align-items: center;
     justify-content: space-between;
+    position: absolute;
+    top:0;
+    left: 31rem;
+
     }
 
     #mp-title{
+        margin: 0 2rem 0 2rem;
         width:fit-content;
         font-size: 20px;
     }
 
     .mp-description{
+        margin: 0 2rem 0 2rem;
         width:fit-content;
         font-size: 14px;  
     }
 
 #project1{
-    margin: 30px 0;
-    padding: 10px 0 0 30px;
-    width: 431px;
-    height: 176px;
+    margin: 2rem 0;
+    width: 35rem;
+    height: 12rem;
     background-color: #302F3D;
-    border-radius: 30px;
+    border-radius: 1.5rem;
+    position: absolute;
+    top: 9rem;
+    left: 31rem;
 }
 
     .title-project{
+        margin: 1rem 0 0 2rem;
         display:inline-flex;
         align-items: center;
     }
 
+    .description-project{
+        margin: 1rem 2rem 0 2rem;
+    }
+
     .rodape-project{
+        margin: 1rem 0 0 2rem;
         display:flex;
         align-items: center;
     }
@@ -169,50 +187,67 @@ body{
     }
 
     .text-language-project{
-        margin: 0 30px 0 auto;
+        margin: 0 2rem 0 auto;
     }
 
 #project2{
-    margin: 30px 0;
-    padding: 10px 0 0 30px;
-    width: 431px;
-    height: 176px;
+    margin: 2rem 0;
+    width: 35rem;
+    height: 12rem;
     background-color: #302F3D;
-    border-radius: 30px;
+    border-radius: 1.5rem;
+    position: absolute;
+    top: 9rem;
+    left: 67rem;
 }
 
 #recent-posts{
-        margin: 30px 0;
-        padding: 0 0 0 20px;
-        width: 932px;
-        height: 86px;
-        background-color: #302F3D;
-        border-radius: 30px;
-        display: flex;
-        align-items: center;
+    margin: 2rem 0;
+    width: 71rem;
+    height: 7rem;
+    background-color: #302F3D;
+    border-radius: 1.5rem;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    top: 23rem;
+    left: 31rem;
     }
 
     #rp-title{
+        margin: 0 2rem 0 2rem;
+        width:fit-content;
         font-size: 20px;
-        display: block;
     }
 
 #post{
-    margin: 30px 0;
-    padding: 10px 20px 0 30px;
-    width: 902px;
-    height: 191px;
+    margin: 2rem 0;
+    width: 71rem;
+    height: 14rem;
     background-color: #302F3D;
-    border-radius: 30px;
-    display: flex;
+    border-radius: 1.5rem;
+    display:flex;
     align-items: center;
+    position: absolute;
+    top: 32rem;
+    left: 31rem;
 }
 
+    #post-title{
+        font-size:18px;
+    }
+
+    #post-description{
+        font-size:16px;
+    }
+
     .post-text{
-        margin: 10px 20px 0 20px;
+        margin: 1rem 1rem 0 1rem;
         width: 750px;
     }
     #post-img{
+        margin: 0 0 0 2rem;
         border-radius: 50%;
-
     }
+
