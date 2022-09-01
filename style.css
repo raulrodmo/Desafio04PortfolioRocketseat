@@ -3,6 +3,7 @@
     font-size: 13px;
     color: #837E9F;
     padding: 0;
+    text-align: justify;
 }
 
 body{
@@ -186,30 +187,30 @@ body{
     }
 
 #project1{
-    margin: 2rem 0;
+    margin: 2rem 0 1rem 0;
     width: 37.5rem;
-    height: 13rem;
+    height: 14rem;
     background-color: #302F3D;
     border-radius: 1.5rem;
     position: absolute;
-    top: 8rem;
+    top: 7rem;
     left: 26rem;
 }
 
     .title-project{
         margin: 1rem 0 0 2rem;
-        display:inline-flex;
+        display:flex;
         align-items: center;
     }
 
     .description-project{
-        margin: 1rem 2rem 0 2rem;
+        margin: 0 2rem 0 2rem;
     }
 
     .rodape-project{
-        margin: 1rem 0 0 2rem;
+        margin: 0 0 0 2rem;
+        flex-direction: column;
         display:flex;
-        align-items: center;
     }
 
     .img-project{
@@ -217,39 +218,57 @@ body{
     }
 
     .text-language-project{
-        margin: 0 2rem 0 auto;
+        margin: .5rem 2rem 0 0;
+    }
+
+    .buttom{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    #vis-git, #vis-page{
+        margin: .5rem 2rem;
+        width: max-content;
+        border-radius: 1.5rem;
+        text-decoration: none;
+        font-weight: bold;
+        color:#000000;
+        background-color: #837E9F;
+        padding: .5rem .5rem;
     }
 
 #project2{
-    margin: 2rem 0;
+    margin: 2rem 0 1rem 0;
+    width: 37.5rem;
+    height: 14rem;
+    background-color: #302F3D;
+    border-radius: 1.5rem;
+    position: absolute;
+    top: 7rem;
+    left: 64.5rem;
+}
+
+#project3{
+    margin: 2rem 0 1rem 0;
     width: 37.5rem;
     height: 13rem;
     background-color: #302F3D;
     border-radius: 1.5rem;
     position: absolute;
-    top: 8rem;
-    left: 64.5rem;
+    top: 22rem;
+    left: 26rem;
 }
 
-#recent-posts{
-    margin: 2rem 0;
-    width: 76rem;
-    height: 6rem;
+#project4{
+    margin: 2rem 0 1rem 0;
+    width: 37.5rem;
+    height: 13rem;
     background-color: #302F3D;
     border-radius: 1.5rem;
-    display:flex;
-    align-items: center;
-    justify-content: space-between;
     position: absolute;
-    top: 23rem;
-    left: 26rem;
-    }
-
-    #rp-title{
-        margin: 0 2rem 0 2rem;
-        width:fit-content;
-        font-size: 20px;
-    }
+    top: 22rem;
+    left: 64.5rem;
+}
 
 #post{
     margin: 2rem 0;
@@ -260,7 +279,7 @@ body{
     display:flex;
     align-items: center;
     position: absolute;
-    top: 31rem;
+    top: 36rem;
     left: 26rem;
 }
 
