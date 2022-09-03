@@ -315,6 +315,8 @@ body {
 }
 
 footer {
+    width:max-content;
+    margin: 0 auto 0 auto;
     font-weight: bold;
     font-size: 18px;
 }
