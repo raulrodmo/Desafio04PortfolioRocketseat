@@ -4,7 +4,7 @@ Link de visualização: https://portifolio-raulrodmo.netlify.app/
 <br>
 Abaixo temos uma imagem expositava:
 ![image](https://user-images.githubusercontent.com/102265187/194764849-7b0fd103-18e3-4ab4-abab-16f2f282d35b.png)
-#### Programming Languages
+#### Programming languages used
 <div>
       <a href="https://github.com/raulrodmo">
             <img id="html" src="https://cdn-icons-png.flaticon.com/512/1051/1051277.png" width="60" height="60"/>
