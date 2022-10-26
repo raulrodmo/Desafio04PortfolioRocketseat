@@ -23,17 +23,17 @@ body {
     justify-content: center;
 }
 
-#p-img {
+#p_img {
     border-radius: 50%;
     border: 0.2rem solid #837E9F;
 }
 
-#p-name {
+#p_name {
     font-size: 1.5rem;
     margin-bottom: 0.5rem;
 }
 
-#p-complement-name {
+#p_complement_name {
     margin: 0;
     font-weight: bold;
 }
@@ -56,7 +56,7 @@ body {
     align-items: center;
 }
 
-.img-links {
+.img_links {
     padding: 0 1rem 0 0;
 }
 
@@ -72,7 +72,7 @@ body {
     justify-content: center;
 }
 
-#t-title {
+#t_title {
     margin-top: 1rem;
     margin-bottom: .5rem;
     margin-left: 2rem;
@@ -93,7 +93,7 @@ body {
     align-items: center;
 }
 
-#technologies-content {
+#technologies_content {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -110,7 +110,7 @@ body {
     justify-content: center;
 }
 
-#edu-title {
+#edu_title {
     margin-bottom: 0;
     margin-top: 2rem;
     margin-left: 2rem;
@@ -124,7 +124,7 @@ body {
     font-weight: bold;
 }
 
-.edu-description {
+.edu_description {
     font-size: 12px;
 }
 
@@ -139,7 +139,7 @@ body {
     justify-content: center;
 }
 
-#exp-title {
+#exp_title {
     margin-bottom: 0;
     margin-top: 2rem;
     margin-left: 2rem;
@@ -152,7 +152,7 @@ body {
     font-weight: bold;
 }
 
-.exp-description {
+.exp_description {
     font-size: 12px;
 }
 
@@ -170,22 +170,22 @@ body {
     left: 22rem;
 }
 
-#post-title {
+#post_title {
     margin: 0 2rem 0 2rem;
     font-size: 1.5rem;
 }
 
-#post-description {
+#post_description {
     line-height: 1.2rem;
     margin: 0 2rem 0 2rem;
     font-size: 1rem;
 }
 
-.post-text {
+.post_text {
     margin: 0.2rem 2rem 0 2rem;
 }
 
-#my-projects {
+#my_projects {
     font-weight: bold;
     margin: 2rem 0;
     width: 60rem;
@@ -199,13 +199,13 @@ body {
     left: 22rem;
 }
 
-#mp-title {
+#mp_title {
     text-align: center;
     width: 100%;
     font-size: 1.5rem;
 }
 
-.mp-description {
+.mp_description {
     border-radius: 1.5rem;
     color: #000000;
     text-decoration: none;
@@ -229,13 +229,13 @@ body {
     left: 22rem;
 }
 
-.title-project {
+.title_project {
     margin: 0 0 0 2rem;
     display: flex;
     align-items: center;
 }
 
-#vis-git {
+#vis_git {
     background-color: #837E9F;
     padding: 0.2rem .5rem;
     border-radius: 1.5rem;
@@ -246,21 +246,21 @@ body {
     color: #000000;
 }
 
-.description-project {
+.description_project {
     margin: 0 2rem 0 2rem;
 }
 
-.rodape-project {
+.baseboard_project {
     margin: 0 0 0 2rem;
     flex-direction: column;
     display: flex;
 }
 
-.img-project {
+.img_project {
     margin-right: 5px;
 }
 
-.text-language-project {
+.text_language_project {
     margin: .5rem 2rem 0 0;
 }
 
@@ -269,7 +269,7 @@ body {
     justify-content: right;
 }
 
-#vis-page {
+#vis_page {
     font-size: .8rem;
     margin: 0.5rem 2rem;
     width: max-content;
