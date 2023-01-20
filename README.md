@@ -1,7 +1,5 @@
 Repositório feito com base no desafio Portfolio encontrado no curso Discorver da Rocketseat.
 <br>
-Link de visualização: https://portifolio-raulrodmo.netlify.app/
-<br>
 Abaixo temos uma imagem expositava:
 ![image](https://user-images.githubusercontent.com/102265187/194764849-7b0fd103-18e3-4ab4-abab-16f2f282d35b.png)
 #### Programming languages used
